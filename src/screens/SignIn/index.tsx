@@ -1,6 +1,7 @@
 import { Container, Slogan, Title } from './styles';
 
 import backgroundImg from '../../assets/background.png';
+import { Button } from '../../components/Button';
 
 export function SignIn() {
   return (
@@ -10,6 +11,8 @@ export function SignIn() {
       <Slogan>
         Gestão de uso de veiculos
       </Slogan>
+
+      <Button>Entrar com Google</Button>
     </Container>
   );
 }
